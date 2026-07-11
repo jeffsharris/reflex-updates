@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Reflex</title>
+        <item>
+            <title>1.1.0</title>
+            <pubDate>Fri, 10 Jul 2026 19:42:16 -0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.1.0
+
+## Automatic updates
+
+- Reflex now checks quietly for signed updates once a day.
+- Use **Check for Updates…** from the right-click menu whenever you want to check immediately.
+- A subtle dot on the menu-bar icon lets you know when an update is ready.
+
+## Mouse responsiveness
+
+- Reduced Reflex processing overhead by 98% for pointer movement, 97% for scrolling, and 78% for clicks.
+- Preserved raw HID event ordering so quick button-down and button-up events cannot be reordered.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.1.0/Reflex-1.1.0.zip" length="1766267" type="application/octet-stream" sparkle:edSignature="wB1NA2SU/G+IIxi9nuNFVloLCNp8r+nnyrdmeevK+ic7XP5TgvJWUAbtxHX8Y7368JeHTcnTeFtF0bL+Su9ZAw=="/>
+        </item>
+    </channel>
+</rss>
