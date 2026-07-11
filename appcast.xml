@@ -3,6 +3,23 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.1.1</title>
+            <pubDate>Fri, 10 Jul 2026 20:36:27 -0700</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.1.1
+
+## Update status
+
+- Successful update checks now show the time they completed.
+- The last successful check remains visible after restarting Reflex.
+- A successful “no update available” result no longer appears as a failed check.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.1.1/Reflex-1.1.1.zip" length="1770186" type="application/octet-stream" sparkle:edSignature="FcqVE9JIIazUBgsdhCKRTauqLadmivW6VWEuyF5k/FfzxqanCEjcI5MUc1HstCoCOnxCvhBQhmBu2QZ4qmlsDQ=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Fri, 10 Jul 2026 19:42:16 -0700</pubDate>
             <sparkle:version>2</sparkle:version>
