@@ -3,6 +3,24 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.1.2</title>
+            <pubDate>Sun, 12 Jul 2026 21:03:24 -0700</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.1.2
+
+## Wireless mouse recovery
+
+- Mouse Remapping now stays enabled when the Evoluent disconnects during a battery change.
+- Remapping resumes automatically after the mouse reconnects and native pointer delivery is verified.
+- Reflex remains safely passive if macOS has not restored native mouse handling.
+- Sleep, wake, and login-session transitions no longer change the user's Mouse Remapping setting.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.1.2/Reflex-1.1.2.zip" length="1772909" type="application/octet-stream" sparkle:edSignature="6qfIKBAaZt3wUZfQnSkZFWHgKHyrkjff732atyosVtpYvASPtJ7ip2SeFVtJtbeamAfMgioiYbqTpoCU7uuFBg=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <pubDate>Fri, 10 Jul 2026 20:36:27 -0700</pubDate>
             <sparkle:version>3</sparkle:version>
