@@ -3,6 +3,23 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.1</title>
+            <pubDate>Wed, 05 Aug 2026 21:48:03 -0700</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.1
+
+## Codex Micro startup repair
+
+- Fixes the deterministic launch crash when a Codex Micro is already connected.
+- Registers the passive raw-report callback once at the HID manager level before activation, as required by IOKit.
+- Keeps reconnect, pause, shutdown, mappings, lighting, and device firmware behavior unchanged.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.1/Reflex-1.3.1.zip" length="1770101" type="application/octet-stream" sparkle:edSignature="ouVwYQHQehTdRiAl8SYcEHZ8D+6movmm4MBjGMJqgmFYKZrrP/0GXtX1bohXPzxpQJeTjRVs5iVu/gArSai6Bg=="/>
+        </item>
+        <item>
             <title>1.3.0</title>
             <pubDate>Wed, 05 Aug 2026 21:05:28 -0700</pubDate>
             <sparkle:version>7</sparkle:version>
