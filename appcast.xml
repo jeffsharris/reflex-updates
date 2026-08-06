@@ -3,6 +3,25 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.0</title>
+            <pubDate>Wed, 05 Aug 2026 21:05:28 -0700</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.0
+
+## Codex Micro controls
+
+- F13 now foregrounds Codex or starts a new task when Codex is already active; F15 foregrounds Slack; F14 foregrounds the default browser.
+- The dial moves through adjacent Slack conversations and Chrome tabs, and scrolls the focused Codex conversation when Codex is foregrounded.
+- The upper directional control moves backward and forward through Slack or Chrome history.
+- Repeated same-direction dial turns now arrive through the raw passive HID report stream without dropped detents or duplicate handling.
+- A local, nonactivating Input Diagnostics panel makes device behavior inspectable without collecting anything while it is closed.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.0/Reflex-1.3.0.zip" length="1771308" type="application/octet-stream" sparkle:edSignature="AZNyfSIDlcmIF5jvjdYmHuc+5vvn8FWMGHaRqZBAgJ9K+1phwUyDL2Gj4LmZwQaBeY+ZalqHlm+Yud4op1N3Cg=="/>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Tue, 04 Aug 2026 05:45:42 -0700</pubDate>
             <sparkle:version>6</sparkle:version>
