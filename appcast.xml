@@ -3,6 +3,23 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.2</title>
+            <pubDate>Sat, 15 Aug 2026 10:27:56 -0700</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.2
+
+## Four-way Codex Micro navigation
+
+- Maps joystick right and left to forward and back in Codex, Chrome, and Slack.
+- Maps joystick up and down to ordinary pointer-targeted scrolling in all three apps.
+- Fires once per directional entry while preserving the existing focused Codex dial scrolling.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.2/Reflex-1.3.2.zip" length="1770387" type="application/octet-stream" sparkle:edSignature="8Hjb6udCdu5vql4Ifh6C9FtxH5ZrwOIpu//Fb/DsWCTvGWccks+HxvyY6qLxLMCzQClOgezP2/aKVCEpSddkDA=="/>
+        </item>
+        <item>
             <title>1.3.1</title>
             <pubDate>Wed, 05 Aug 2026 21:48:03 -0700</pubDate>
             <sparkle:version>8</sparkle:version>
