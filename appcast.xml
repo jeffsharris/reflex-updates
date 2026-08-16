@@ -3,6 +3,23 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.3</title>
+            <pubDate>Sat, 15 Aug 2026 17:09:26 -0700</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.3
+
+## Faster Codex Micro navigation
+
+- Moves the Codex Micro dial through adjacent Codex sidebar chats instead of navigation history.
+- Repeats joystick scrolling while held in Codex, Chrome, and Slack.
+- Accelerates scrolling smoothly as the joystick is pushed farther.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.3/Reflex-1.3.3.zip" length="1771200" type="application/octet-stream" sparkle:edSignature="E4InLbdvKXyz+PRg1AJN0NfMtVr3huJsWInCMkh7GkCWyTOvfauWf2lFVcoF2RpGoath2AJhwlT97OVcUz5rCw=="/>
+        </item>
+        <item>
             <title>1.3.2</title>
             <pubDate>Sat, 15 Aug 2026 10:27:56 -0700</pubDate>
             <sparkle:version>9</sparkle:version>
