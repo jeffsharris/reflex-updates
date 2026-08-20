@@ -3,6 +3,23 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.6</title>
+            <pubDate>Thu, 20 Aug 2026 10:05:17 -0700</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.6
+
+## Tab from the Codex Micro knob
+
+- Pressing the upper-left Codex Micro knob now sends a native Tab key press in any application.
+- Keeps knob rotation and joystick navigation behavior unchanged.
+- Releases Tab safely if Reflex is paused, the mapping is disabled, or the Micro disconnects mid-press.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.6/Reflex-1.3.6.zip" length="1780563" type="application/octet-stream" sparkle:edSignature="wnHR8tzpFMC/E5vafefg1OJfGW+bAUQR4BdOzg+Z3voAj98pungwEtd9JkW4T4291a9jZ/M6DGCcTXm/tA2zBA=="/>
+        </item>
+        <item>
             <title>1.3.5</title>
             <pubDate>Thu, 20 Aug 2026 08:37:20 -0700</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -157,23 +174,6 @@
 - Sleep, wake, and login-session transitions no longer change the user's Mouse Remapping setting.
 ]]></description>
             <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.1.2/Reflex-1.1.2.zip" length="1772909" type="application/octet-stream" sparkle:edSignature="6qfIKBAaZt3wUZfQnSkZFWHgKHyrkjff732atyosVtpYvASPtJ7ip2SeFVtJtbeamAfMgioiYbqTpoCU7uuFBg=="/>
-        </item>
-        <item>
-            <title>1.1.1</title>
-            <pubDate>Fri, 10 Jul 2026 20:36:27 -0700</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Reflex 1.1.1
-
-## Update status
-
-- Successful update checks now show the time they completed.
-- The last successful check remains visible after restarting Reflex.
-- A successful “no update available” result no longer appears as a failed check.
-]]></description>
-            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.1.1/Reflex-1.1.1.zip" length="1770186" type="application/octet-stream" sparkle:edSignature="FcqVE9JIIazUBgsdhCKRTauqLadmivW6VWEuyF5k/FfzxqanCEjcI5MUc1HstCoCOnxCvhBQhmBu2QZ4qmlsDQ=="/>
         </item>
     </channel>
 </rss>
