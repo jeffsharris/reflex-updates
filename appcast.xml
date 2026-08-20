@@ -3,6 +3,23 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.5</title>
+            <pubDate>Thu, 20 Aug 2026 08:37:20 -0700</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.5
+
+## Keep Apple Music out of the way
+
+- Prevents Apple Music from opening when macOS uses it as the idle Play-key fallback.
+- Leaves native Play/Pause routing untouched for active audio and video apps.
+- Adds a saved right-click menu toggle for temporarily allowing Music launches.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.5/Reflex-1.3.5.zip" length="1779968" type="application/octet-stream" sparkle:edSignature="Ce+jZxLcFppGRobCZKp8IxzFMpz+bHvah7JorKWNCM9clwMgFQlKgItazdZ2Legu8CWmz/YQDWeFpP09It+lCA=="/>
+        </item>
+        <item>
             <title>1.3.4</title>
             <pubDate>Thu, 20 Aug 2026 07:04:04 -0700</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -157,28 +174,6 @@
 - A successful “no update available” result no longer appears as a failed check.
 ]]></description>
             <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.1.1/Reflex-1.1.1.zip" length="1770186" type="application/octet-stream" sparkle:edSignature="FcqVE9JIIazUBgsdhCKRTauqLadmivW6VWEuyF5k/FfzxqanCEjcI5MUc1HstCoCOnxCvhBQhmBu2QZ4qmlsDQ=="/>
-        </item>
-        <item>
-            <title>1.1.0</title>
-            <pubDate>Fri, 10 Jul 2026 19:42:16 -0700</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Reflex 1.1.0
-
-## Automatic updates
-
-- Reflex now checks quietly for signed updates once a day.
-- Use **Check for Updates…** from the right-click menu whenever you want to check immediately.
-- A subtle dot on the menu-bar icon lets you know when an update is ready.
-
-## Mouse responsiveness
-
-- Reduced Reflex processing overhead by 98% for pointer movement, 97% for scrolling, and 78% for clicks.
-- Preserved raw HID event ordering so quick button-down and button-up events cannot be reordered.
-]]></description>
-            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.1.0/Reflex-1.1.0.zip" length="1766267" type="application/octet-stream" sparkle:edSignature="wB1NA2SU/G+IIxi9nuNFVloLCNp8r+nnyrdmeevK+ic7XP5TgvJWUAbtxHX8Y7368JeHTcnTeFtF0bL+Su9ZAw=="/>
         </item>
     </channel>
 </rss>
