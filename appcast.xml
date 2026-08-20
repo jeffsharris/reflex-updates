@@ -3,6 +3,23 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.4</title>
+            <pubDate>Thu, 20 Aug 2026 07:04:04 -0700</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.4
+
+## More intentional clipboard gestures
+
+- Adds Option-Command-V to paste the exact original text once after Reflex rewrites a copied URL.
+- Restores the transformed clipboard after the raw paste without overwriting newer clipboard contents.
+- Makes the clipboard drawer require a wider, faster mouse shake to prevent accidental triggers while dragging.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.4/Reflex-1.3.4.zip" length="1774669" type="application/octet-stream" sparkle:edSignature="43dUUXURDy7hO6BO84dKVcgI+1abDHoA9RCpqyMAvBrwNAXL2vNoiV8LMPpW+53v2K/b01Vg0os9SXksOJanCg=="/>
+        </item>
+        <item>
             <title>1.3.3</title>
             <pubDate>Sat, 15 Aug 2026 17:09:26 -0700</pubDate>
             <sparkle:version>10</sparkle:version>
