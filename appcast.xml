@@ -3,6 +3,26 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.9</title>
+            <pubDate>Tue, 06 Oct 2026 13:11:43 -0700</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.3.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.9
+
+## Hide system menu-bar icons
+
+- The Hidden/Visible panel now includes native system icons on macOS 27: Wi-Fi, Bluetooth, battery, sound, displays, input sources, the clock, and Control Center.
+- Hide icons individually without disabling their underlying services. Your choices persist across restart, and clicking Reflex reveals them again.
+- Siri, Time Machine, and other legacy system extras appear as a labelled group because macOS hides them together. Apple apps with their own menu-bar icons are also supported.
+- Reflex's own icon stays available. System controls that cannot be managed independently are labelled rather than given nonfunctional hide buttons.
+- The accepted macOS 27 limitation remains: Now Playing, user switching, and camera/microphone controls disappear while collapsed and return on reveal.
+- Older macOS versions keep the existing divider-based behavior. Existing app-hiding choices and other Reflex workflows are unchanged.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.9/Reflex-1.3.9.zip" length="1844713" type="application/octet-stream" sparkle:edSignature="Kr5UNBj6ltWqHLD3yFfzidrkwGgt2afFqCgB4gXREi9Zl8SU7VXvoBQ/8ek3lJQMs6ZrsoFnS3/A9EGhj+ypCA=="/>
+        </item>
+        <item>
             <title>1.3.8</title>
             <pubDate>Tue, 06 Oct 2026 11:32:57 -0700</pubDate>
             <sparkle:version>15</sparkle:version>
@@ -160,21 +180,6 @@
 - A local, nonactivating Input Diagnostics panel makes device behavior inspectable without collecting anything while it is closed.
 ]]></description>
             <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.0/Reflex-1.3.0.zip" length="1771308" type="application/octet-stream" sparkle:edSignature="AZNyfSIDlcmIF5jvjdYmHuc+5vvn8FWMGHaRqZBAgJ9K+1phwUyDL2Gj4LmZwQaBeY+ZalqHlm+Yud4op1N3Cg=="/>
-        </item>
-        <item>
-            <title>1.2.1</title>
-            <pubDate>Tue, 04 Aug 2026 05:45:42 -0700</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Reflex 1.2.1
-
-## Codex Micro word deletion
-
-- The Codex Micro key above Return now sends Option-Delete, deleting the previous word instead of one character.
-]]></description>
-            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.2.1/Reflex-1.2.1.zip" length="1732796" type="application/octet-stream" sparkle:edSignature="4jQMvbXSHRPuRD6JUjrxL2IeKRyfewq+vaOB7H36BPdGl0KT51uYWhahOxOW2uanRnq8IIOjWi5z1Y1Gy7iqAA=="/>
         </item>
     </channel>
 </rss>
