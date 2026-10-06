@@ -3,6 +3,27 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.3.8</title>
+            <pubDate>Tue, 06 Oct 2026 11:32:57 -0700</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.3.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.8
+
+## Menu-bar compatibility with macOS 27
+
+- Restores the Hidden and Visible lists on macOS 27 using Accessibility-based app discovery.
+- Adds saved per-app hiding on macOS 27. Apps start visible; use the minus button to choose which to hide. Multiple icons from one app are managed together.
+- On macOS 27, collapsing also temporarily hides Apple's Now Playing, user-switching, and camera/microphone controls. Click Reflex to reveal them, or turn off Hide Menu Bar Items to keep them visible. Their underlying services are unaffected.
+- Revealing items, disabling hiding, or quitting Reflex restores the icons. Failed or timed-out hiding attempts release the restriction.
+- The macOS 27 panel uses application icons; use the native menu bar to rearrange items instead of dragging within the panel.
+- Preserves the existing divider, icon capture, and rearranging behavior on macOS 15 through 26.
+- Other Reflex workflows, including clipboard history and Codex Micro shortcuts, are unchanged.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.8/Reflex-1.3.8.zip" length="1819335" type="application/octet-stream" sparkle:edSignature="PKbxckwzkMG83KWtZMxk1WUIUq7aBVAHMLXX/qWxm54iXwCuPo4ta71lH9DhgsGwjlullMShtH6WvgsrVsEwCg=="/>
+        </item>
+        <item>
             <title>1.3.7</title>
             <pubDate>Tue, 22 Sep 2026 20:38:07 -0700</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -154,25 +175,6 @@
 - The Codex Micro key above Return now sends Option-Delete, deleting the previous word instead of one character.
 ]]></description>
             <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.2.1/Reflex-1.2.1.zip" length="1732796" type="application/octet-stream" sparkle:edSignature="4jQMvbXSHRPuRD6JUjrxL2IeKRyfewq+vaOB7H36BPdGl0KT51uYWhahOxOW2uanRnq8IIOjWi5z1Y1Gy7iqAA=="/>
-        </item>
-        <item>
-            <title>1.2.0</title>
-            <pubDate>Mon, 03 Aug 2026 21:21:50 -0700</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Reflex 1.2.0
-
-## Simpler input, sharper shortcuts
-
-- Removes the Evoluent remapper and all exclusive mouse capture. Reflex now leaves pointer and scroll handling entirely to macOS.
-- Adds a Codex Micro Backspace shortcut to the key directly above Return.
-- Requires a quicker, more deliberate mouse shake to reveal clipboard history.
-- Option-Command-C copies once without applying Reflex clipboard rewrites.
-- Includes the saved Codex Micro Wispr Flow, Return, Codex, and browser mappings.
-]]></description>
-            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.2.0/Reflex-1.2.0.zip" length="1732624" type="application/octet-stream" sparkle:edSignature="B2/WGmTINuzoix6bCHViSNBJuQp+LWtFrCVYOj6KjrbdKmGBPuT2sVXxJmzdR4LXXCe5ZJKAAtq09stNyh+0BA=="/>
         </item>
     </channel>
 </rss>
