@@ -3,6 +3,26 @@
     <channel>
         <title>Reflex</title>
         <item>
+            <title>1.4.0</title>
+            <pubDate>Mon, 23 Nov 2026 07:53:28 -0800</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Reflex 1.4.0
+
+## Screen recording
+
+- Press ⇧⌘6, then click a window or drag an area. Reflex records that rectangle, including menus, the pointer and clicks. Press ⇧⌘6 again or click the menu-bar timer to stop.
+- The recording is saved as an MP4 in Downloads and copied to the clipboard, ready to paste into Slack or Messages with ⌘V.
+- Turn on Mic or Camera in the picker toolbar to talk over the recording. The camera appears as a round bubble you can drag during the countdown and the recording. Choose a microphone, camera and bubble size from the arrows beside each control.
+- Reflex remembers your microphone and camera choices, so the next recording starts the way the last one did.
+- Click the card that appears after a recording to show the file in Finder. Hover over it to trim the recording or move it to the Trash.
+- macOS asks for Screen Recording access the first time, and for Microphone and Camera access when you first turn each on. System audio is not recorded.
+]]></description>
+            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.4.0/Reflex-1.4.0.zip" length="2085460" type="application/octet-stream" sparkle:edSignature="sNdLAeRq2tczrmFL7bhcpkZYREb/TrvLAQiRH+zgkA1K9NeLbppwoTfK6Yhr8vy7aB0Ztq76HTyR4OV21cU1Aw=="/>
+        </item>
+        <item>
             <title>1.3.9</title>
             <pubDate>Tue, 06 Oct 2026 13:11:43 -0700</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -161,25 +181,6 @@
 - Keeps reconnect, pause, shutdown, mappings, lighting, and device firmware behavior unchanged.
 ]]></description>
             <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.1/Reflex-1.3.1.zip" length="1770101" type="application/octet-stream" sparkle:edSignature="ouVwYQHQehTdRiAl8SYcEHZ8D+6movmm4MBjGMJqgmFYKZrrP/0GXtX1bohXPzxpQJeTjRVs5iVu/gArSai6Bg=="/>
-        </item>
-        <item>
-            <title>1.3.0</title>
-            <pubDate>Wed, 05 Aug 2026 21:05:28 -0700</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Reflex 1.3.0
-
-## Codex Micro controls
-
-- F13 now foregrounds Codex or starts a new task when Codex is already active; F15 foregrounds Slack; F14 foregrounds the default browser.
-- The dial moves through adjacent Slack conversations and Chrome tabs, and scrolls the focused Codex conversation when Codex is foregrounded.
-- The upper directional control moves backward and forward through Slack or Chrome history.
-- Repeated same-direction dial turns now arrive through the raw passive HID report stream without dropped detents or duplicate handling.
-- A local, nonactivating Input Diagnostics panel makes device behavior inspectable without collecting anything while it is closed.
-]]></description>
-            <enclosure url="https://github.com/jeffsharris/reflex-updates/releases/download/v1.3.0/Reflex-1.3.0.zip" length="1771308" type="application/octet-stream" sparkle:edSignature="AZNyfSIDlcmIF5jvjdYmHuc+5vvn8FWMGHaRqZBAgJ9K+1phwUyDL2Gj4LmZwQaBeY+ZalqHlm+Yud4op1N3Cg=="/>
         </item>
     </channel>
 </rss>
